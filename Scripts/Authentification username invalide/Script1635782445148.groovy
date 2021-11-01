@@ -17,3 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Scenario Authentification'), [('password') : 'admin', ('username') : 'admina'], FailureHandling.STOP_ON_FAILURE)
+
+if (WebUI.verifyElementPresent(findTestObject('Page_opencats - Login/p_Invalid username or password'), 300)) {
+	ObjError=findTestObject('Page_opencats - Login/p_Invalid username or password')
+	String ActualResult=WebUI.getText(ObjError)
+	System.out.println(ActualResult)
+	}
