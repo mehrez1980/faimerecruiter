@@ -5,28 +5,43 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>ec2f6c7c-3bc6-4bf2-a42a-505c4d2e8389</testSuiteGuid>
    <testCaseLink>
-      <guid>5df8579e-c315-46d8-94d9-655f2b8a0371</guid>
+      <guid>7c003ddc-0a4d-457d-863c-dcc7cd3a4667</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Authentification username Valide et Mdp Valide</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ba48ae5e-a290-4d2c-b12e-c634c9f317a4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Authentification username invalide</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>aea5d36b-3143-4251-8d68-56279c0ca79c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Authentification password invalide</testCaseId>
+      <testCaseId>Test Cases/TestDataDrivenLogin</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>463ba60b-6338-41a9-b56c-268e8d6e37fc</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/data1</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>463ba60b-6338-41a9-b56c-268e8d6e37fc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>${username}</value>
+         <variableId>38c0981b-a4ce-4e06-8282-ae6b48b0fac5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>463ba60b-6338-41a9-b56c-268e8d6e37fc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>${password}</value>
+         <variableId>2857c94f-554f-47b7-bb9c-d1d2120c8517</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>463ba60b-6338-41a9-b56c-268e8d6e37fc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>${ExpectedResult}</value>
+         <variableId>c6d34fdf-bd80-45ce-992b-e73b0130ef3e</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
