@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Authentification,Chrome 95.0.4638.54,,,2021-11-01 19:24:50,2021-11-01 19:25:11,"21,062s",PASSED
+,,,,,,,
+Test Cases/Authentification password invalide,Chrome 95.0.4638.54,,,2021-11-01 19:24:56,2021-11-01 19:25:01,"5,367s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.54,,,2021-11-01 19:24:56,2021-11-01 19:24:56,"0,021s",PASSED
+"callTestCase(findTestCase(""Scenario Authentification""), [""password"":""admina"", ""username"":""admin""], STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-11-01 19:24:57,2021-11-01 19:25:01,"3,892s",PASSED
+"if (verifyElementPresent(findTestObject(""Page_opencats - Login/p_Invalid username or password""), 300))",Chrome 95.0.4638.54,,,2021-11-01 19:25:01,2021-11-01 19:25:01,"0,864s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.54,,,2021-11-01 19:25:01,2021-11-01 19:25:01,"0,004s",PASSED
+,,,,,,,
+Test Cases/Authentification username valide et password valide,Chrome 95.0.4638.54,,,2021-11-01 19:25:02,2021-11-01 19:25:07,"5,537s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.54,,,2021-11-01 19:25:02,2021-11-01 19:25:02,"0,004s",PASSED
+"callTestCase(findTestCase(""Scenario Authentification""), [""password"":""admin"", ""username"":""admin""], STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-11-01 19:25:02,2021-11-01 19:25:06,"3,424s",PASSED
+"if (verifyElementPresent(findTestObject(""Page_FaimeRecruiter - Home/a_Logout""), 300))",Chrome 95.0.4638.54,,,2021-11-01 19:25:06,2021-11-01 19:25:07,"1,376s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.54,,,2021-11-01 19:25:07,2021-11-01 19:25:07,"0,003s",PASSED
+,,,,,,,
+Test Cases/Authentification username invalide,Chrome 95.0.4638.54,,,2021-11-01 19:25:07,2021-11-01 19:25:11,"4,330s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.54,,,2021-11-01 19:25:07,2021-11-01 19:25:07,"0,002s",PASSED
+"callTestCase(findTestCase(""Scenario Authentification""), [""password"":""admin"", ""username"":""admina""], STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-11-01 19:25:08,2021-11-01 19:25:11,"2,894s",PASSED
+"if (verifyElementPresent(findTestObject(""Page_opencats - Login/p_Invalid username or password""), 300))",Chrome 95.0.4638.54,,,2021-11-01 19:25:11,2021-11-01 19:25:11,"0,816s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.54,,,2021-11-01 19:25:11,2021-11-01 19:25:11,"0,003s",PASSED

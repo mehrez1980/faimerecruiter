@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Authentification" time="19.95" tests="3" failures="0" errors="0">
+   <testsuite name="Authentification" tests="3" failures="0" errors="0" time="19.95" skipped="0" timestamp="2021-11-01 18:35:33" hostname="MEHREZ - DESKTOP-ACK9F1N" id="Test Suites/Authentification">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\MEHREZ\\git\\faimerecruiter\\Reports\\20211101_183519\\Authentification\\20211101_183519"/>
+         <property name="logFiles" value="C:\\Users\\MEHREZ\\git\\faimerecruiter\\Reports\\20211101_183519\\Authentification\\20211101_183519\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MEHREZ - DESKTOP-ACK9F1N"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.54"/>
+         <property name="hostAddress" value="169.254.209.0"/>
+         <property name="sessionId" value="ae6ded5741ad1a693075ab48bbbe0828"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Authentification password invalide" time="4.442" classname="Test Cases/Authentification password invalide" status="PASSED">
+         <system-out><![CDATA[2021-11-01 18:35:39 - [TEST_CASE][PASSED] - Test Cases/Authentification password invalide: Test Cases/Authentification password invalide
+
+2021-11-01 18:35:39 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-11-01 18:35:39 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-01 18:35:39 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2021-11-01 18:35:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Scenario Authentification"), ["password":"admina", "username":"admin"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Scenario Authentification' successfully
+
+2021-11-01 18:35:40 - [TEST_CASE][PASSED] - Test Cases/Scenario Authentification: Test Cases/Scenario Authentification
+
+2021-11-01 18:35:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_opencats - Login/input_Username_username"), 300): Object 'Object Repository/Page_opencats - Login/input_Username_username' is present
+
+2021-11-01 18:35:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_opencats - Login/input_Username_username' is present
+
+2021-11-01 18:35:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_opencats - Login/input_Username_username"), username): Text 'admin' is set on object 'Object Repository/Page_opencats - Login/input_Username_username'
+
+2021-11-01 18:35:42 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_opencats - Login/input_Username_username'
+
+2021-11-01 18:35:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_opencats - Login/input_Password_password"), password): Text 'admina' is set on object 'Object Repository/Page_opencats - Login/input_Password_password'
+
+2021-11-01 18:35:43 - [MESSAGE][PASSED] - Text 'admina' is set on object 'Object Repository/Page_opencats - Login/input_Password_password'
+
+2021-11-01 18:35:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_opencats - Login/input_Password_button")): Object: 'Object Repository/Page_opencats - Login/input_Password_button' is clicked on
+
+2021-11-01 18:35:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_opencats - Login/input_Password_button' is clicked on
+
+2021-11-01 18:35:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Scenario Authentification' successfully
+
+2021-11-01 18:35:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-11-01 18:35:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-01 18:35:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentification username valide et password valide" time="4.802" classname="Test Cases/Authentification username valide et password valide" status="PASSED">
+         <system-out><![CDATA[2021-11-01 18:35:43 - [TEST_CASE][PASSED] - Test Cases/Authentification username valide et password valide: Test Cases/Authentification username valide et password valide
+
+2021-11-01 18:35:43 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-11-01 18:35:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-01 18:35:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2021-11-01 18:35:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Scenario Authentification"), ["password":"admin", "username":"admin"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Scenario Authentification' successfully
+
+2021-11-01 18:35:44 - [TEST_CASE][PASSED] - Test Cases/Scenario Authentification: Test Cases/Scenario Authentification
+
+2021-11-01 18:35:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_opencats - Login/input_Username_username"), 300): Object 'Object Repository/Page_opencats - Login/input_Username_username' is present
+
+2021-11-01 18:35:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_opencats - Login/input_Username_username' is present
+
+2021-11-01 18:35:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_opencats - Login/input_Username_username"), username): Text 'admin' is set on object 'Object Repository/Page_opencats - Login/input_Username_username'
+
+2021-11-01 18:35:45 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_opencats - Login/input_Username_username'
+
+2021-11-01 18:35:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_opencats - Login/input_Password_password"), password): Text 'admin' is set on object 'Object Repository/Page_opencats - Login/input_Password_password'
+
+2021-11-01 18:35:46 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_opencats - Login/input_Password_password'
+
+2021-11-01 18:35:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_opencats - Login/input_Password_button")): Object: 'Object Repository/Page_opencats - Login/input_Password_button' is clicked on
+
+2021-11-01 18:35:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_opencats - Login/input_Password_button' is clicked on
+
+2021-11-01 18:35:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Scenario Authentification' successfully
+
+2021-11-01 18:35:47 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_FaimeRecruiter - Home/a_Logout"), 300)): null
+
+2021-11-01 18:35:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FaimeRecruiter - Home/a_Logout' is present
+
+2021-11-01 18:35:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_FaimeRecruiter - Home/a_Logout")): Object: 'Object Repository/Page_FaimeRecruiter - Home/a_Logout' is clicked on
+
+2021-11-01 18:35:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FaimeRecruiter - Home/a_Logout' is clicked on
+
+2021-11-01 18:35:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-11-01 18:35:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-01 18:35:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentification username invalide" time="3.218" classname="Test Cases/Authentification username invalide" status="PASSED">
+         <system-out><![CDATA[2021-11-01 18:35:48 - [TEST_CASE][PASSED] - Test Cases/Authentification username invalide: Test Cases/Authentification username invalide
+
+2021-11-01 18:35:48 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-11-01 18:35:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-01 18:35:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2021-11-01 18:35:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Scenario Authentification"), ["password":"admin", "username":"admina"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Scenario Authentification' successfully
+
+2021-11-01 18:35:49 - [TEST_CASE][PASSED] - Test Cases/Scenario Authentification: Test Cases/Scenario Authentification
+
+2021-11-01 18:35:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_opencats - Login/input_Username_username"), 300): Object 'Object Repository/Page_opencats - Login/input_Username_username' is present
+
+2021-11-01 18:35:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_opencats - Login/input_Username_username' is present
+
+2021-11-01 18:35:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_opencats - Login/input_Username_username"), username): Text 'admina' is set on object 'Object Repository/Page_opencats - Login/input_Username_username'
+
+2021-11-01 18:35:50 - [MESSAGE][PASSED] - Text 'admina' is set on object 'Object Repository/Page_opencats - Login/input_Username_username'
+
+2021-11-01 18:35:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_opencats - Login/input_Password_password"), password): Text 'admin' is set on object 'Object Repository/Page_opencats - Login/input_Password_password'
+
+2021-11-01 18:35:51 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_opencats - Login/input_Password_password'
+
+2021-11-01 18:35:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_opencats - Login/input_Password_button")): Object: 'Object Repository/Page_opencats - Login/input_Password_button' is clicked on
+
+2021-11-01 18:35:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_opencats - Login/input_Password_button' is clicked on
+
+2021-11-01 18:35:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Scenario Authentification' successfully
+
+2021-11-01 18:35:51 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-11-01 18:35:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-01 18:35:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-01 18:35:33 - [TEST_SUITE][PASSED] - Authentification: Test Cases/Authentification username invalide]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

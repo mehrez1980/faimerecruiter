@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Authentification,Chrome 95.0.4638.54,,,2021-11-01 22:16:41,2021-11-01 22:18:22,"1m - 40,479s",FAILED
+,,,,,,,
+Test Cases/TestDataDrivenLogin,Chrome 95.0.4638.54,,,2021-11-01 22:16:48,2021-11-01 22:17:06,"17,713s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.54,,,2021-11-01 22:16:48,2021-11-01 22:16:48,"0,040s",PASSED
+"verifyElementPresent(findTestObject(""Page_opencats - Login/input_Username_username""), 300)",Chrome 95.0.4638.54,,,2021-11-01 22:16:49,2021-11-01 22:16:50,"0,687s",PASSED
+"setText(findTestObject(""Page_opencats - Login/input_Username_username""), username)",Chrome 95.0.4638.54,,,2021-11-01 22:16:50,2021-11-01 22:16:51,"0,938s",PASSED
+"setText(findTestObject(""Page_opencats - Login/input_Password_password""), password)",Chrome 95.0.4638.54,,,2021-11-01 22:16:51,2021-11-01 22:16:52,"0,851s",PASSED
+"click(findTestObject(""Page_opencats - Login/input_Password_button""))",Chrome 95.0.4638.54,,,2021-11-01 22:16:52,2021-11-01 22:16:53,"0,968s",PASSED
+"if (verifyElementPresent(findTestObject(""Page_FaimeRecruiter - Home/a_Logout""), 10, OPTIONAL))",Chrome 95.0.4638.54,,,2021-11-01 22:16:53,2021-11-01 22:16:54,"1,387s",PASSED
+"if (verifyElementPresent(findTestObject(""Page_opencats - Login/p_Invalid username or password""), 10, OPTIONAL))",Chrome 95.0.4638.54,,,2021-11-01 22:16:54,2021-11-01 22:17:06,"11,413s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.54,,,2021-11-01 22:17:06,2021-11-01 22:17:06,"0,005s",PASSED
+,,,,,,,
+Test Cases/TestDataDrivenLogin,Chrome 95.0.4638.54,,,2021-11-01 22:17:51,2021-11-01 22:18:06,"15,135s",FAILED
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.54,,,2021-11-01 22:17:51,2021-11-01 22:17:51,"0,001s",PASSED
+"verifyElementPresent(findTestObject(""Page_opencats - Login/input_Username_username""), 300)",Chrome 95.0.4638.54,,,2021-11-01 22:17:51,2021-11-01 22:17:52,"0,451s",PASSED
+"setText(findTestObject(""Page_opencats - Login/input_Username_username""), username)",Chrome 95.0.4638.54,,,2021-11-01 22:17:52,2021-11-01 22:17:52,"0,743s",PASSED
+"setText(findTestObject(""Page_opencats - Login/input_Password_password""), password)",Chrome 95.0.4638.54,,,2021-11-01 22:17:52,2021-11-01 22:17:53,"0,850s",PASSED
+"click(findTestObject(""Page_opencats - Login/input_Password_button""))",Chrome 95.0.4638.54,,,2021-11-01 22:17:53,2021-11-01 22:17:54,"0,783s",PASSED
+"if (verifyElementPresent(findTestObject(""Page_FaimeRecruiter - Home/a_Logout""), 10, OPTIONAL))",Chrome 95.0.4638.54,,,2021-11-01 22:17:54,2021-11-01 22:18:05,"11,385s",PASSED
+"if (verifyElementPresent(findTestObject(""Page_opencats - Login/p_Invalid username or password""), 10, OPTIONAL))",Chrome 95.0.4638.54,,,2021-11-01 22:18:05,2021-11-01 22:18:06,"0,892s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.54,,,2021-11-01 22:18:06,2021-11-01 22:18:06,"0,001s",PASSED
+,,,,,,,
+Test Cases/TestDataDrivenLogin,Chrome 95.0.4638.54,,,2021-11-01 22:18:06,2021-11-01 22:18:22,"15,235s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.54,,,2021-11-01 22:18:06,2021-11-01 22:18:06,"0,002s",PASSED
+"verifyElementPresent(findTestObject(""Page_opencats - Login/input_Username_username""), 300)",Chrome 95.0.4638.54,,,2021-11-01 22:18:06,2021-11-01 22:18:07,"0,419s",PASSED
+"setText(findTestObject(""Page_opencats - Login/input_Username_username""), username)",Chrome 95.0.4638.54,,,2021-11-01 22:18:07,2021-11-01 22:18:08,"0,768s",PASSED
+"setText(findTestObject(""Page_opencats - Login/input_Password_password""), password)",Chrome 95.0.4638.54,,,2021-11-01 22:18:08,2021-11-01 22:18:08,"0,888s",PASSED
+"click(findTestObject(""Page_opencats - Login/input_Password_button""))",Chrome 95.0.4638.54,,,2021-11-01 22:18:08,2021-11-01 22:18:09,"0,688s",PASSED
+"if (verifyElementPresent(findTestObject(""Page_FaimeRecruiter - Home/a_Logout""), 10, OPTIONAL))",Chrome 95.0.4638.54,,,2021-11-01 22:18:09,2021-11-01 22:18:21,"11,511s",PASSED
+"if (verifyElementPresent(findTestObject(""Page_opencats - Login/p_Invalid username or password""), 10, OPTIONAL))",Chrome 95.0.4638.54,,,2021-11-01 22:18:21,2021-11-01 22:18:22,"0,900s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.54,,,2021-11-01 22:18:22,2021-11-01 22:18:22,"0,001s",PASSED

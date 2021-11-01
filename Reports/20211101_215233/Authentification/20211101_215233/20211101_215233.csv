@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Authentification,Chrome 95.0.4638.54,,,2021-11-01 21:52:47,2021-11-01 21:53:08,"21,644s",FAILED
+,,,,,,,
+Test Cases/TestDataDrivenLogin,Chrome 95.0.4638.54,,,2021-11-01 21:53:08,2021-11-01 21:53:08,"0,344s",FAILED
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.54,,,2021-11-01 21:53:08,2021-11-01 21:53:08,"0,002s",PASSED
+"verifyElementPresent(findTestObject(""Page_opencats - Login/input_Username_username""), 300)",Chrome 95.0.4638.54,,,2021-11-01 21:53:08,2021-11-01 21:53:08,"0,311s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.54,,,2021-11-01 21:53:08,2021-11-01 21:53:08,"0,008s",PASSED

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Authentification" time="33.377" tests="3" failures="0" errors="1">
+   <testsuite name="Authentification" tests="3" failures="0" errors="1" time="33.377" skipped="0" timestamp="2021-11-01 19:09:12" hostname="MEHREZ - DESKTOP-ACK9F1N" id="Test Suites/Authentification">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\MEHREZ\\git\\faimerecruiter\\Reports\\20211101_190857\\Authentification\\20211101_190857"/>
+         <property name="logFiles" value="C:\\Users\\MEHREZ\\git\\faimerecruiter\\Reports\\20211101_190857\\Authentification\\20211101_190857\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MEHREZ - DESKTOP-ACK9F1N"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.54"/>
+         <property name="hostAddress" value="169.254.209.0"/>
+         <property name="sessionId" value="e48a3c2c7c0ca13cddf4125650850366"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Authentification password invalide" time="3.185" classname="Test Cases/Authentification password invalide" status="ERROR">
+         <error type="ERROR" message="Test Cases/Authentification password invalide FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.findTestObject() is applicable for argument types: (java.lang.String) values: [Page_opencats - Login/p_Invalid username or password]
+	at Authentification password invalide.run(Authentification password invalide:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635790137968.run(TempTestSuite1635790137968.groovy:36)
+"/>
+         <system-out><![CDATA[2021-11-01 19:09:31 - [TEST_CASE][ERROR] - Test Cases/Authentification password invalide: Test Cases/Authentification password invalide FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.findTestObject() is applicable for argument types: (java.lang.String) values: [Page_opencats - Login/p_Invalid username or password]
+	at Authentification password invalide.run(Authentification password invalide:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635790137968.run(TempTestSuite1635790137968.groovy:36)
+
+
+2021-11-01 19:09:31 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-11-01 19:09:31 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-01 19:09:31 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2021-11-01 19:09:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Scenario Authentification"), ["password":"admina", "username":"admin"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Scenario Authentification' successfully
+
+2021-11-01 19:09:31 - [TEST_CASE][PASSED] - Test Cases/Scenario Authentification: Test Cases/Scenario Authentification
+
+2021-11-01 19:09:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_opencats - Login/input_Username_username"), 300): Object 'Object Repository/Page_opencats - Login/input_Username_username' is present
+
+2021-11-01 19:09:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_opencats - Login/input_Username_username' is present
+
+2021-11-01 19:09:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_opencats - Login/input_Username_username"), username): Text 'admin' is set on object 'Object Repository/Page_opencats - Login/input_Username_username'
+
+2021-11-01 19:09:32 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_opencats - Login/input_Username_username'
+
+2021-11-01 19:09:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_opencats - Login/input_Password_password"), password): Text 'admina' is set on object 'Object Repository/Page_opencats - Login/input_Password_password'
+
+2021-11-01 19:09:33 - [MESSAGE][PASSED] - Text 'admina' is set on object 'Object Repository/Page_opencats - Login/input_Password_password'
+
+2021-11-01 19:09:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_opencats - Login/input_Password_button")): Object: 'Object Repository/Page_opencats - Login/input_Password_button' is clicked on
+
+2021-11-01 19:09:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_opencats - Login/input_Password_button' is clicked on
+
+2021-11-01 19:09:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Scenario Authentification' successfully
+
+2021-11-01 19:09:33 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_opencats - Login/p_Invalid username or password"), 300)): null
+
+2021-11-01 19:09:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_opencats - Login/p_Invalid username or password' is present
+
+2021-11-01 19:09:34 - [TEST_STEP][ERROR] - ObjError = findTestObject("Page_opencats - Login/p_Invalid username or password"): Test Cases/Authentification password invalide FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.findTestObject() is applicable for argument types: (java.lang.String) values: [Page_opencats - Login/p_Invalid username or password]
+	at Authentification password invalide.run(Authentification password invalide:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635790137968.run(TempTestSuite1635790137968.groovy:36)
+
+
+2021-11-01 19:09:34 - [MESSAGE][ERROR] - Test Cases/Authentification password invalide FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.findTestObject() is applicable for argument types: (java.lang.String) values: [Page_opencats - Login/p_Invalid username or password]
+	at Authentification password invalide.run(Authentification password invalide:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635790137968.run(TempTestSuite1635790137968.groovy:36)
+
+
+2021-11-01 19:09:34 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-11-01 19:09:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-01 19:09:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2021-11-01 19:09:31 - [TEST_CASE][ERROR] - Test Cases/Authentification password invalide: Test Cases/Authentification password invalide FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.findTestObject() is applicable for argument types: (java.lang.String) values: [Page_opencats - Login/p_Invalid username or password]
+	at Authentification password invalide.run(Authentification password invalide:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635790137968.run(TempTestSuite1635790137968.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentification username valide et password valide" time="5.427" classname="Test Cases/Authentification username valide et password valide" status="PASSED">
+         <system-out><![CDATA[2021-11-01 19:09:34 - [TEST_CASE][PASSED] - Test Cases/Authentification username valide et password valide: Test Cases/Authentification username valide et password valide
+
+2021-11-01 19:09:34 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-11-01 19:09:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-01 19:09:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2021-11-01 19:09:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Scenario Authentification"), ["password":"admin", "username":"admin"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Scenario Authentification' successfully
+
+2021-11-01 19:09:35 - [TEST_CASE][PASSED] - Test Cases/Scenario Authentification: Test Cases/Scenario Authentification
+
+2021-11-01 19:09:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_opencats - Login/input_Username_username"), 300): Object 'Object Repository/Page_opencats - Login/input_Username_username' is present
+
+2021-11-01 19:09:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_opencats - Login/input_Username_username' is present
+
+2021-11-01 19:09:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_opencats - Login/input_Username_username"), username): Text 'admin' is set on object 'Object Repository/Page_opencats - Login/input_Username_username'
+
+2021-11-01 19:09:36 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_opencats - Login/input_Username_username'
+
+2021-11-01 19:09:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_opencats - Login/input_Password_password"), password): Text 'admin' is set on object 'Object Repository/Page_opencats - Login/input_Password_password'
+
+2021-11-01 19:09:37 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_opencats - Login/input_Password_password'
+
+2021-11-01 19:09:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_opencats - Login/input_Password_button")): Object: 'Object Repository/Page_opencats - Login/input_Password_button' is clicked on
+
+2021-11-01 19:09:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_opencats - Login/input_Password_button' is clicked on
+
+2021-11-01 19:09:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Scenario Authentification' successfully
+
+2021-11-01 19:09:38 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_FaimeRecruiter - Home/a_Logout"), 300)): null
+
+2021-11-01 19:09:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FaimeRecruiter - Home/a_Logout' is present
+
+2021-11-01 19:09:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_FaimeRecruiter - Home/a_Logout")): Object: 'Object Repository/Page_FaimeRecruiter - Home/a_Logout' is clicked on
+
+2021-11-01 19:09:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FaimeRecruiter - Home/a_Logout' is clicked on
+
+2021-11-01 19:09:39 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-11-01 19:09:39 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-01 19:09:39 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentification username invalide" time="3.275" classname="Test Cases/Authentification username invalide" status="PASSED">
+         <system-out><![CDATA[2021-11-01 19:09:39 - [TEST_CASE][PASSED] - Test Cases/Authentification username invalide: Test Cases/Authentification username invalide
+
+2021-11-01 19:09:39 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-11-01 19:09:39 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-01 19:09:39 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2021-11-01 19:09:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Scenario Authentification"), ["password":"admin", "username":"admina"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Scenario Authentification' successfully
+
+2021-11-01 19:09:40 - [TEST_CASE][PASSED] - Test Cases/Scenario Authentification: Test Cases/Scenario Authentification
+
+2021-11-01 19:09:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_opencats - Login/input_Username_username"), 300): Object 'Object Repository/Page_opencats - Login/input_Username_username' is present
+
+2021-11-01 19:09:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_opencats - Login/input_Username_username' is present
+
+2021-11-01 19:09:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_opencats - Login/input_Username_username"), username): Text 'admina' is set on object 'Object Repository/Page_opencats - Login/input_Username_username'
+
+2021-11-01 19:09:41 - [MESSAGE][PASSED] - Text 'admina' is set on object 'Object Repository/Page_opencats - Login/input_Username_username'
+
+2021-11-01 19:09:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_opencats - Login/input_Password_password"), password): Text 'admin' is set on object 'Object Repository/Page_opencats - Login/input_Password_password'
+
+2021-11-01 19:09:42 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_opencats - Login/input_Password_password'
+
+2021-11-01 19:09:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_opencats - Login/input_Password_button")): Object: 'Object Repository/Page_opencats - Login/input_Password_button' is clicked on
+
+2021-11-01 19:09:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_opencats - Login/input_Password_button' is clicked on
+
+2021-11-01 19:09:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Scenario Authentification' successfully
+
+2021-11-01 19:09:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-11-01 19:09:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-01 19:09:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-01 19:09:12 - [TEST_SUITE][ERROR] - Authentification: Test Cases/Authentification password invalide FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.findTestObject() is applicable for argument types: (java.lang.String) values: [Page_opencats - Login/p_Invalid username or password]
+	at Authentification password invalide.run(Authentification password invalide:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635790137968.run(TempTestSuite1635790137968.groovy:36)]]></system-out>
+      <system-err><![CDATA[2021-11-01 19:09:12 - [TEST_SUITE][ERROR] - Authentification: Test Cases/Authentification password invalide FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.findTestObject() is applicable for argument types: (java.lang.String) values: [Page_opencats - Login/p_Invalid username or password]
+	at Authentification password invalide.run(Authentification password invalide:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635790137968.run(TempTestSuite1635790137968.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

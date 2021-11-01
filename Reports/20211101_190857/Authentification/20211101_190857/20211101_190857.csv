@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Authentification,Chrome 95.0.4638.54,,,2021-11-01 19:09:12,2021-11-01 19:09:43,"30,878s",ERROR
+,,,,,,,
+Test Cases/Authentification password invalide,Chrome 95.0.4638.54,,,2021-11-01 19:09:31,2021-11-01 19:09:34,"3,185s",ERROR
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.54,,,2021-11-01 19:09:31,2021-11-01 19:09:31,"0,002s",PASSED
+"callTestCase(findTestCase(""Scenario Authentification""), [""password"":""admina"", ""username"":""admin""], STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-11-01 19:09:31,2021-11-01 19:09:33,"2,698s",PASSED
+"if (verifyElementPresent(findTestObject(""Page_opencats - Login/p_Invalid username or password""), 300))",Chrome 95.0.4638.54,,,2021-11-01 19:09:33,2021-11-01 19:09:34,"0,433s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.54,,,2021-11-01 19:09:34,2021-11-01 19:09:34,"0,004s",PASSED
+,,,,,,,
+Test Cases/Authentification username valide et password valide,Chrome 95.0.4638.54,,,2021-11-01 19:09:34,2021-11-01 19:09:39,"5,427s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.54,,,2021-11-01 19:09:34,2021-11-01 19:09:34,"0,002s",PASSED
+"callTestCase(findTestCase(""Scenario Authentification""), [""password"":""admin"", ""username"":""admin""], STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-11-01 19:09:35,2021-11-01 19:09:38,"3,367s",PASSED
+"if (verifyElementPresent(findTestObject(""Page_FaimeRecruiter - Home/a_Logout""), 300))",Chrome 95.0.4638.54,,,2021-11-01 19:09:38,2021-11-01 19:09:39,"1,412s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.54,,,2021-11-01 19:09:39,2021-11-01 19:09:39,"0,002s",PASSED
+,,,,,,,
+Test Cases/Authentification username invalide,Chrome 95.0.4638.54,,,2021-11-01 19:09:39,2021-11-01 19:09:43,"3,275s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.54,,,2021-11-01 19:09:39,2021-11-01 19:09:39,"0,002s",PASSED
+"callTestCase(findTestCase(""Scenario Authentification""), [""password"":""admin"", ""username"":""admina""], STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-11-01 19:09:40,2021-11-01 19:09:43,"2,702s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.54,,,2021-11-01 19:09:43,2021-11-01 19:09:43,"0,001s",PASSED

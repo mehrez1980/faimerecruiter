@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Authentification,Chrome 95.0.4638.54,,,2021-11-01 18:35:33,2021-11-01 18:35:51,"18,278s",PASSED
+,,,,,,,
+Test Cases/Authentification password invalide,Chrome 95.0.4638.54,,,2021-11-01 18:35:39,2021-11-01 18:35:43,"4,442s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.54,,,2021-11-01 18:35:39,2021-11-01 18:35:39,"0,043s",PASSED
+"callTestCase(findTestCase(""Scenario Authentification""), [""password"":""admina"", ""username"":""admin""], STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-11-01 18:35:40,2021-11-01 18:35:43,"3,709s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.54,,,2021-11-01 18:35:43,2021-11-01 18:35:43,"0,003s",PASSED
+,,,,,,,
+Test Cases/Authentification username valide et password valide,Chrome 95.0.4638.54,,,2021-11-01 18:35:43,2021-11-01 18:35:48,"4,802s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.54,,,2021-11-01 18:35:43,2021-11-01 18:35:43,"0,007s",PASSED
+"callTestCase(findTestCase(""Scenario Authentification""), [""password"":""admin"", ""username"":""admin""], STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-11-01 18:35:44,2021-11-01 18:35:47,"2,842s",PASSED
+"if (verifyElementPresent(findTestObject(""Page_FaimeRecruiter - Home/a_Logout""), 300))",Chrome 95.0.4638.54,,,2021-11-01 18:35:47,2021-11-01 18:35:48,"1,288s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.54,,,2021-11-01 18:35:48,2021-11-01 18:35:48,"0,003s",PASSED
+,,,,,,,
+Test Cases/Authentification username invalide,Chrome 95.0.4638.54,,,2021-11-01 18:35:48,2021-11-01 18:35:51,"3,218s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.54,,,2021-11-01 18:35:48,2021-11-01 18:35:48,"0,005s",PASSED
+"callTestCase(findTestCase(""Scenario Authentification""), [""password"":""admin"", ""username"":""admina""], STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-11-01 18:35:49,2021-11-01 18:35:51,"2,650s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.54,,,2021-11-01 18:35:51,2021-11-01 18:35:51,"0,002s",PASSED

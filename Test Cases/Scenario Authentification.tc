@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Scenario Authentification</name>
+   <tag>@username_mdp_valide</tag>
+   <comment></comment>
+   <testCaseGuid>97dc4ff6-9063-4fb8-94f2-809abfee0951</testCaseGuid>
+   <variable>
+      <defaultValue>'admin'</defaultValue>
+      <description></description>
+      <id>c772891e-ff60-4d24-83ed-5cf9c5d0cf06</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin'</defaultValue>
+      <description></description>
+      <id>40cd569e-21a3-4046-91f9-f85566391ce1</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

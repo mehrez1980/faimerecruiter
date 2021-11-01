@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Authentification,Chrome 95.0.4638.54,,,2021-11-01 22:02:23,2021-11-01 22:03:07,"44,583s",ERROR
+,,,,,,,
+Test Cases/TestDataDrivenLogin,Chrome 95.0.4638.54,,,2021-11-01 22:02:44,2021-11-01 22:02:49,"4,977s",ERROR
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.54,,,2021-11-01 22:02:44,2021-11-01 22:02:44,"0,008s",PASSED
+"verifyElementPresent(findTestObject(""Page_opencats - Login/input_Username_username""), 300)",Chrome 95.0.4638.54,,,2021-11-01 22:02:44,2021-11-01 22:02:45,"0,406s",PASSED
+"setText(findTestObject(""Page_opencats - Login/input_Username_username""), username)",Chrome 95.0.4638.54,,,2021-11-01 22:02:45,2021-11-01 22:02:46,"0,945s",PASSED
+"setText(findTestObject(""Page_opencats - Login/input_Password_password""), password)",Chrome 95.0.4638.54,,,2021-11-01 22:02:46,2021-11-01 22:02:47,"1,000s",PASSED
+"click(findTestObject(""Page_opencats - Login/input_Password_button""))",Chrome 95.0.4638.54,,,2021-11-01 22:02:47,2021-11-01 22:02:48,"1,036s",PASSED
+"if (verifyElementPresent(findTestObject(""Page_FaimeRecruiter - Home/a_Logout""), 10, OPTIONAL))",Chrome 95.0.4638.54,,,2021-11-01 22:02:48,2021-11-01 22:02:49,"1,562s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.54,,,2021-11-01 22:02:49,2021-11-01 22:02:49,"0,000s",PASSED
+,,,,,,,
+Test Cases/TestDataDrivenLogin,Chrome 95.0.4638.54,,,2021-11-01 22:03:06,2021-11-01 22:03:06,"0,217s",FAILED
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.54,,,2021-11-01 22:03:06,2021-11-01 22:03:06,"0,008s",PASSED
+"verifyElementPresent(findTestObject(""Page_opencats - Login/input_Username_username""), 300)",Chrome 95.0.4638.54,,,2021-11-01 22:03:06,2021-11-01 22:03:06,"0,188s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.54,,,2021-11-01 22:03:06,2021-11-01 22:03:06,"0,007s",PASSED
+,,,,,,,
+Test Cases/TestDataDrivenLogin,Chrome 95.0.4638.54,,,2021-11-01 22:03:07,2021-11-01 22:03:07,"0,428s",FAILED
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.54,,,2021-11-01 22:03:07,2021-11-01 22:03:07,"0,000s",PASSED
+"verifyElementPresent(findTestObject(""Page_opencats - Login/input_Username_username""), 300)",Chrome 95.0.4638.54,,,2021-11-01 22:03:07,2021-11-01 22:03:07,"0,379s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.54,,,2021-11-01 22:03:07,2021-11-01 22:03:07,"0,003s",PASSED

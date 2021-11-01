@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Authentification,Chrome 95.0.4638.54,,,2021-11-01 19:58:23,2021-11-01 20:34:42,"36m - 19,839s",FAILED
+,,,,,,,
+Test Cases/TestDataDrivenLogin,Chrome 95.0.4638.54,,,2021-11-01 20:13:40,2021-11-01 20:18:42,"5m - 2,144s",FAILED
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.54,,,2021-11-01 20:13:40,2021-11-01 20:13:40,"0,000s",PASSED
+"verifyElementPresent(findTestObject(""Page_opencats - Login/input_Username_username""), 300)",Chrome 95.0.4638.54,,,2021-11-01 20:13:40,2021-11-01 20:18:42,"5m - 2,128s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.54,,,2021-11-01 20:18:42,2021-11-01 20:18:42,"0,000s",PASSED
+,,,,,,,
+Test Cases/TestDataDrivenLogin,Chrome 95.0.4638.54,,,2021-11-01 20:33:48,2021-11-01 20:34:41,"53,446s",FAILED
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.54,,,2021-11-01 20:33:48,2021-11-01 20:33:48,"0,010s",PASSED
+"verifyElementPresent(findTestObject(""Page_opencats - Login/input_Username_username""), 300)",Chrome 95.0.4638.54,,,2021-11-01 20:33:48,2021-11-01 20:34:41,"53,401s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.54,,,2021-11-01 20:34:41,2021-11-01 20:34:41,"0,001s",PASSED
+,,,,,,,
+Test Cases/TestDataDrivenLogin,Chrome 95.0.4638.54,,,2021-11-01 20:34:42,2021-11-01 20:34:42,"0,251s",FAILED
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.54,,,2021-11-01 20:34:42,2021-11-01 20:34:42,"0,000s",PASSED
+"verifyElementPresent(findTestObject(""Page_opencats - Login/input_Username_username""), 300)",Chrome 95.0.4638.54,,,2021-11-01 20:34:42,2021-11-01 20:34:42,"0,227s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.54,,,2021-11-01 20:34:42,2021-11-01 20:34:42,"0,000s",PASSED
