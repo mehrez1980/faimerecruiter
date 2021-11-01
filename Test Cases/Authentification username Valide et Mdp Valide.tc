@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Authentification username Valide et Mdp Valide</name>
-   <tag>@username_mdp_valide</tag>
-   <comment></comment>
-   <testCaseGuid>97dc4ff6-9063-4fb8-94f2-809abfee0951</testCaseGuid>
-</TestCaseEntity>
