@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Authentification" time="83.626" tests="3" failures="2" errors="0">
+   <testsuite name="Authentification" tests="3" failures="2" errors="0" time="83.626" skipped="0" timestamp="2021-11-03 13:56:18" hostname="MEHREZ - DESKTOP-ACK9F1N" id="Test Suites/Authentification">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\MEHREZ\\git\\faimerecruiter\\Reports\\20211103_135553\\Authentification\\20211103_135605"/>
+         <property name="logFiles" value="C:\\Users\\MEHREZ\\git\\faimerecruiter\\Reports\\20211103_135553\\Authentification\\20211103_135605\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\MEHREZ\\git\\faimerecruiter\\Reports\\20211103_135553\\Authentification\\20211103_135605\\1635944224901.png, C:\\Users\\MEHREZ\\git\\faimerecruiter\\Reports\\20211103_135553\\Authentification\\20211103_135605\\1635944259302.png"/>
+         <property name="hostName" value="MEHREZ - DESKTOP-ACK9F1N"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.69"/>
+         <property name="hostAddress" value="169.254.209.0"/>
+         <property name="sessionId" value="68cafaea8ffabd487d007bd92656c590"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestDataDrivenLogin" time="5.11" classname="Test Cases/TestDataDrivenLogin" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TestDataDrivenLogin FAILED.
+Reason:
+org.junit.ComparisonFailure: expected:&lt;[http://ats.faimerecruiter.com/index.php?m=home]> but was:&lt;[Logout]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.Assert$assertEquals.callStatic(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635944165124.run(TempTestSuite1635944165124.groovy:36)
+"/>
+         <system-out><![CDATA[2021-11-03 13:56:26 - [TEST_CASE][FAILED] - Test Cases/TestDataDrivenLogin: Test Cases/TestDataDrivenLogin FAILED.
+Reason:
+org.junit.ComparisonFailure: expected:<[http://ats.faimerecruiter.com/index.php?m=home]> but was:<[Logout]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.Assert$assertEquals.callStatic(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635944165124.run(TempTestSuite1635944165124.groovy:36)
+
+
+2021-11-03 13:56:26 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-11-03 13:56:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-03 13:56:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2021-11-03 13:56:26 - [TEST_STEP][PASSED] - ObjUsername = new com.kms.katalon.core.testobject.TestObject(username): null
+
+2021-11-03 13:56:26 - [TEST_STEP][PASSED] - ObjPassword = new com.kms.katalon.core.testobject.TestObject(password): null
+
+2021-11-03 13:56:26 - [TEST_STEP][PASSED] - ObjValider = new com.kms.katalon.core.testobject.TestObject(valider): null
+
+2021-11-03 13:56:26 - [TEST_STEP][PASSED] - ObjLogout = new com.kms.katalon.core.testobject.TestObject(Logout): null
+
+2021-11-03 13:56:26 - [TEST_STEP][PASSED] - ObjMsgErr = new com.kms.katalon.core.testobject.TestObject(MsgErr): null
+
+2021-11-03 13:56:26 - [TEST_STEP][PASSED] - ObjUsername.addProperty("xpath", EQUALS, "//input[@id='username']"): null
+
+2021-11-03 13:56:26 - [TEST_STEP][PASSED] - ObjPassword.addProperty("xpath", EQUALS, "//input[@id='password']"): null
+
+2021-11-03 13:56:26 - [TEST_STEP][PASSED] - ObjValider.addProperty("xpath", EQUALS, "//input[@value='Login']"): null
+
+2021-11-03 13:56:26 - [TEST_STEP][PASSED] - ObjLogout.addProperty("xpath", EQUALS, "//a[contains(text(),'Logout')]"): null
+
+2021-11-03 13:56:26 - [TEST_STEP][PASSED] - ObjMsgErr.addProperty("xpath", EQUALS, "//p[@class="failure"]"): null
+
+2021-11-03 13:56:26 - [TEST_STEP][PASSED] - waitForElementPresent(ObjUsername, 300): Object 'username' is present
+
+2021-11-03 13:56:27 - [MESSAGE][PASSED] - Object 'username' is present
+
+2021-11-03 13:56:27 - [TEST_STEP][PASSED] - setText(ObjUsername, username): Text 'admin' is set on object 'username'
+
+2021-11-03 13:56:27 - [MESSAGE][PASSED] - Text 'admin' is set on object 'username'
+
+2021-11-03 13:56:27 - [TEST_STEP][PASSED] - setText(ObjPassword, password): Text 'admin' is set on object 'password'
+
+2021-11-03 13:56:28 - [MESSAGE][PASSED] - Text 'admin' is set on object 'password'
+
+2021-11-03 13:56:28 - [TEST_STEP][PASSED] - click(ObjValider): Object: 'valider' is clicked on
+
+2021-11-03 13:56:29 - [MESSAGE][PASSED] - Object: 'valider' is clicked on
+
+2021-11-03 13:56:29 - [TEST_STEP][PASSED] - if (verifyElementPresent(ObjLogout, 30, OPTIONAL)): null
+
+2021-11-03 13:56:29 - [MESSAGE][PASSED] - Object 'Logout' is present
+
+2021-11-03 13:56:29 - [TEST_STEP][PASSED] - ActualResult = getText(ObjLogout): Text of object 'Logout' is: 'Logout'
+
+2021-11-03 13:56:30 - [MESSAGE][PASSED] - Text of object 'Logout' is: 'Logout'
+
+2021-11-03 13:56:30 - [TEST_STEP][PASSED] - click(ObjLogout): Object: 'Logout' is clicked on
+
+2021-11-03 13:56:31 - [MESSAGE][PASSED] - Object: 'Logout' is clicked on
+
+2021-11-03 13:56:31 - [TEST_STEP][FAILED] - Assert.assertEquals(ResultatAttendu, ActualResult): Test Cases/TestDataDrivenLogin FAILED.
+Reason:
+org.junit.ComparisonFailure: expected:<[http://ats.faimerecruiter.com/index.php?m=home]> but was:<[Logout]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.Assert$assertEquals.callStatic(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635944165124.run(TempTestSuite1635944165124.groovy:36)
+
+
+2021-11-03 13:56:31 - [MESSAGE][FAILED] - Test Cases/TestDataDrivenLogin FAILED.
+Reason:
+org.junit.ComparisonFailure: expected:<[http://ats.faimerecruiter.com/index.php?m=home]> but was:<[Logout]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.Assert$assertEquals.callStatic(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635944165124.run(TempTestSuite1635944165124.groovy:36)
+
+
+2021-11-03 13:56:31 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-11-03 13:56:31 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-03 13:56:31 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2021-11-03 13:56:26 - [TEST_CASE][FAILED] - Test Cases/TestDataDrivenLogin: Test Cases/TestDataDrivenLogin FAILED.
+Reason:
+org.junit.ComparisonFailure: expected:<[http://ats.faimerecruiter.com/index.php?m=home]> but was:<[Logout]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.Assert$assertEquals.callStatic(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635944165124.run(TempTestSuite1635944165124.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestDataDrivenLogin" time="34.407" classname="Test Cases/TestDataDrivenLogin" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TestDataDrivenLogin FAILED.
+Reason:
+org.junit.ComparisonFailure: Le resultat Attendu devrais être: Invalid username or password.. Alors que nous avons commme résultat: Invalid username or password. expected:&lt;...sername or password.[.]> but was:&lt;...sername or password.[]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert$assertEquals$0.callStatic(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635944165124.run(TempTestSuite1635944165124.groovy:36)
+"/>
+         <system-out><![CDATA[2021-11-03 13:56:31 - [TEST_CASE][FAILED] - Test Cases/TestDataDrivenLogin: Test Cases/TestDataDrivenLogin FAILED.
+Reason:
+org.junit.ComparisonFailure: Le resultat Attendu devrais être: Invalid username or password.. Alors que nous avons commme résultat: Invalid username or password. expected:<...sername or password.[.]> but was:<...sername or password.[]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert$assertEquals$0.callStatic(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635944165124.run(TempTestSuite1635944165124.groovy:36)
+
+
+2021-11-03 13:56:31 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-11-03 13:56:31 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-03 13:56:31 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2021-11-03 13:56:31 - [TEST_STEP][PASSED] - ObjUsername = new com.kms.katalon.core.testobject.TestObject(username): null
+
+2021-11-03 13:56:31 - [TEST_STEP][PASSED] - ObjPassword = new com.kms.katalon.core.testobject.TestObject(password): null
+
+2021-11-03 13:56:31 - [TEST_STEP][PASSED] - ObjValider = new com.kms.katalon.core.testobject.TestObject(valider): null
+
+2021-11-03 13:56:31 - [TEST_STEP][PASSED] - ObjLogout = new com.kms.katalon.core.testobject.TestObject(Logout): null
+
+2021-11-03 13:56:31 - [TEST_STEP][PASSED] - ObjMsgErr = new com.kms.katalon.core.testobject.TestObject(MsgErr): null
+
+2021-11-03 13:56:31 - [TEST_STEP][PASSED] - ObjUsername.addProperty("xpath", EQUALS, "//input[@id='username']"): null
+
+2021-11-03 13:56:31 - [TEST_STEP][PASSED] - ObjPassword.addProperty("xpath", EQUALS, "//input[@id='password']"): null
+
+2021-11-03 13:56:31 - [TEST_STEP][PASSED] - ObjValider.addProperty("xpath", EQUALS, "//input[@value='Login']"): null
+
+2021-11-03 13:56:31 - [TEST_STEP][PASSED] - ObjLogout.addProperty("xpath", EQUALS, "//a[contains(text(),'Logout')]"): null
+
+2021-11-03 13:56:31 - [TEST_STEP][PASSED] - ObjMsgErr.addProperty("xpath", EQUALS, "//p[@class="failure"]"): null
+
+2021-11-03 13:56:31 - [TEST_STEP][PASSED] - waitForElementPresent(ObjUsername, 300): Object 'username' is present
+
+2021-11-03 13:56:31 - [MESSAGE][PASSED] - Object 'username' is present
+
+2021-11-03 13:56:31 - [TEST_STEP][PASSED] - setText(ObjUsername, username): Text 'admina' is set on object 'username'
+
+2021-11-03 13:56:32 - [MESSAGE][PASSED] - Text 'admina' is set on object 'username'
+
+2021-11-03 13:56:32 - [TEST_STEP][PASSED] - setText(ObjPassword, password): Text '' is set on object 'password'
+
+2021-11-03 13:56:33 - [MESSAGE][PASSED] - Text '' is set on object 'password'
+
+2021-11-03 13:56:33 - [TEST_STEP][PASSED] - click(ObjValider): Object: 'valider' is clicked on
+
+2021-11-03 13:56:33 - [MESSAGE][PASSED] - Object: 'valider' is clicked on
+
+2021-11-03 13:56:33 - [TEST_STEP][PASSED] - if (verifyElementPresent(ObjLogout, 30, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Logout' located by '//a[contains(text(),'Logout')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Logout' located by '//a[contains(text(),'Logout')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635944165124.run(TempTestSuite1635944165124.groovy:36)
+)
+
+2021-11-03 13:57:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[contains(text(),'Logout')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-11-03 13:57:05 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Logout' located by '//a[contains(text(),'Logout')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Logout' located by '//a[contains(text(),'Logout')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635944165124.run(TempTestSuite1635944165124.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\MEHREZ\\git\\faimerecruiter\\Reports\\20211103_135553\\Authentification\\20211103_135605\\1635944224901.png]]
+
+2021-11-03 13:57:05 - [TEST_STEP][PASSED] - if (verifyElementPresent(ObjMsgErr, 30, OPTIONAL)): null
+
+2021-11-03 13:57:05 - [MESSAGE][PASSED] - Object 'MsgErr' is present
+
+2021-11-03 13:57:05 - [TEST_STEP][PASSED] - ActualResult = getText(ObjMsgErr): Text of object 'MsgErr' is: 'Invalid username or password.'
+
+2021-11-03 13:57:05 - [MESSAGE][PASSED] - Text of object 'MsgErr' is: 'Invalid username or password.'
+
+2021-11-03 13:57:05 - [TEST_STEP][FAILED] - Assert.assertEquals("Le resultat Attendu devrais être: " + ResultatAttendu + " Alors que nous avons commme résultat: " + ActualResult, ResultatAttendu, ActualResult): Test Cases/TestDataDrivenLogin FAILED.
+Reason:
+org.junit.ComparisonFailure: Le resultat Attendu devrais être: Invalid username or password.. Alors que nous avons commme résultat: Invalid username or password. expected:<...sername or password.[.]> but was:<...sername or password.[]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert$assertEquals$0.callStatic(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635944165124.run(TempTestSuite1635944165124.groovy:36)
+
+
+2021-11-03 13:57:05 - [MESSAGE][FAILED] - Test Cases/TestDataDrivenLogin FAILED.
+Reason:
+org.junit.ComparisonFailure: Le resultat Attendu devrais être: Invalid username or password.. Alors que nous avons commme résultat: Invalid username or password. expected:<...sername or password.[.]> but was:<...sername or password.[]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert$assertEquals$0.callStatic(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635944165124.run(TempTestSuite1635944165124.groovy:36)
+
+
+2021-11-03 13:57:05 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-11-03 13:57:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-03 13:57:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2021-11-03 13:56:31 - [TEST_CASE][FAILED] - Test Cases/TestDataDrivenLogin: Test Cases/TestDataDrivenLogin FAILED.
+Reason:
+org.junit.ComparisonFailure: Le resultat Attendu devrais être: Invalid username or password.. Alors que nous avons commme résultat: Invalid username or password. expected:<...sername or password.[.]> but was:<...sername or password.[]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert$assertEquals$0.callStatic(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635944165124.run(TempTestSuite1635944165124.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestDataDrivenLogin" time="34.314" classname="Test Cases/TestDataDrivenLogin" status="PASSED">
+         <system-out><![CDATA[2021-11-03 13:57:05 - [TEST_CASE][PASSED] - Test Cases/TestDataDrivenLogin: Test Cases/TestDataDrivenLogin
+
+2021-11-03 13:57:05 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-11-03 13:57:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-03 13:57:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2021-11-03 13:57:05 - [TEST_STEP][PASSED] - ObjUsername = new com.kms.katalon.core.testobject.TestObject(username): null
+
+2021-11-03 13:57:05 - [TEST_STEP][PASSED] - ObjPassword = new com.kms.katalon.core.testobject.TestObject(password): null
+
+2021-11-03 13:57:05 - [TEST_STEP][PASSED] - ObjValider = new com.kms.katalon.core.testobject.TestObject(valider): null
+
+2021-11-03 13:57:05 - [TEST_STEP][PASSED] - ObjLogout = new com.kms.katalon.core.testobject.TestObject(Logout): null
+
+2021-11-03 13:57:05 - [TEST_STEP][PASSED] - ObjMsgErr = new com.kms.katalon.core.testobject.TestObject(MsgErr): null
+
+2021-11-03 13:57:05 - [TEST_STEP][PASSED] - ObjUsername.addProperty("xpath", EQUALS, "//input[@id='username']"): null
+
+2021-11-03 13:57:05 - [TEST_STEP][PASSED] - ObjPassword.addProperty("xpath", EQUALS, "//input[@id='password']"): null
+
+2021-11-03 13:57:05 - [TEST_STEP][PASSED] - ObjValider.addProperty("xpath", EQUALS, "//input[@value='Login']"): null
+
+2021-11-03 13:57:05 - [TEST_STEP][PASSED] - ObjLogout.addProperty("xpath", EQUALS, "//a[contains(text(),'Logout')]"): null
+
+2021-11-03 13:57:05 - [TEST_STEP][PASSED] - ObjMsgErr.addProperty("xpath", EQUALS, "//p[@class="failure"]"): null
+
+2021-11-03 13:57:05 - [TEST_STEP][PASSED] - waitForElementPresent(ObjUsername, 300): Object 'username' is present
+
+2021-11-03 13:57:06 - [MESSAGE][PASSED] - Object 'username' is present
+
+2021-11-03 13:57:06 - [TEST_STEP][PASSED] - setText(ObjUsername, username): Text 'admin' is set on object 'username'
+
+2021-11-03 13:57:06 - [MESSAGE][PASSED] - Text 'admin' is set on object 'username'
+
+2021-11-03 13:57:06 - [TEST_STEP][PASSED] - setText(ObjPassword, password): Text 'admina' is set on object 'password'
+
+2021-11-03 13:57:07 - [MESSAGE][PASSED] - Text 'admina' is set on object 'password'
+
+2021-11-03 13:57:07 - [TEST_STEP][PASSED] - click(ObjValider): Object: 'valider' is clicked on
+
+2021-11-03 13:57:08 - [MESSAGE][PASSED] - Object: 'valider' is clicked on
+
+2021-11-03 13:57:08 - [TEST_STEP][PASSED] - if (verifyElementPresent(ObjLogout, 30, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Logout' located by '//a[contains(text(),'Logout')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Logout' located by '//a[contains(text(),'Logout')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635944165124.run(TempTestSuite1635944165124.groovy:36)
+)
+
+2021-11-03 13:57:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[contains(text(),'Logout')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-11-03 13:57:39 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Logout' located by '//a[contains(text(),'Logout')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Logout' located by '//a[contains(text(),'Logout')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635944165124.run(TempTestSuite1635944165124.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\MEHREZ\\git\\faimerecruiter\\Reports\\20211103_135553\\Authentification\\20211103_135605\\1635944259302.png]]
+
+2021-11-03 13:57:39 - [TEST_STEP][PASSED] - if (verifyElementPresent(ObjMsgErr, 30, OPTIONAL)): null
+
+2021-11-03 13:57:39 - [MESSAGE][PASSED] - Object 'MsgErr' is present
+
+2021-11-03 13:57:39 - [TEST_STEP][PASSED] - ActualResult = getText(ObjMsgErr): Text of object 'MsgErr' is: 'Invalid username or password.'
+
+2021-11-03 13:57:40 - [MESSAGE][PASSED] - Text of object 'MsgErr' is: 'Invalid username or password.'
+
+2021-11-03 13:57:40 - [TEST_STEP][PASSED] - Assert.assertEquals("Le resultat Attendu devrais être: " + ResultatAttendu + " Alors que nous avons commme résultat: " + ActualResult, ResultatAttendu, ActualResult): null
+
+2021-11-03 13:57:40 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-11-03 13:57:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-03 13:57:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-03 13:56:18 - [TEST_SUITE][FAILED] - Authentification: Test Cases/TestDataDrivenLogin FAILED.
+Reason:
+org.junit.ComparisonFailure: expected:<[http://ats.faimerecruiter.com/index.php?m=home]> but was:<[Logout]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.Assert$assertEquals.callStatic(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635944165124.run(TempTestSuite1635944165124.groovy:36)]]></system-out>
+      <system-err><![CDATA[2021-11-03 13:56:18 - [TEST_SUITE][FAILED] - Authentification: Test Cases/TestDataDrivenLogin FAILED.
+Reason:
+org.junit.ComparisonFailure: expected:<[http://ats.faimerecruiter.com/index.php?m=home]> but was:<[Logout]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.Assert$assertEquals.callStatic(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635944165124.run(TempTestSuite1635944165124.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

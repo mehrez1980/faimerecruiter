@@ -33,7 +33,10 @@ import com.kms.katalon.core.annotation.TearDownTestCase
  */
 @SetUp(skipped = false) // Please change skipped to be false to activate this method.
 def setUp() {
-	WebUI.openBrowser('http://ats.faimerecruiter.com')
+	
+	WebUI.openBrowser('')
+	WebUI.maximizeWindow()
+	WebUI.navigateToUrl('http://ats.faimerecruiter.com/')
 }
 
 /**

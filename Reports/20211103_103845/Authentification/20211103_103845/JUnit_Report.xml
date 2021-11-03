@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Authentification" time="113.657" tests="3" failures="0" errors="1">
+   <testsuite name="Authentification" tests="3" failures="0" errors="1" time="113.657" skipped="0" timestamp="2021-11-03 10:39:00" hostname="MEHREZ - DESKTOP-ACK9F1N" id="Test Suites/Authentification">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\MEHREZ\\git\\faimerecruiter\\Reports\\20211103_103845\\Authentification\\20211103_103845"/>
+         <property name="logFiles" value="C:\\Users\\MEHREZ\\git\\faimerecruiter\\Reports\\20211103_103845\\Authentification\\20211103_103845\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MEHREZ - DESKTOP-ACK9F1N"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.69"/>
+         <property name="hostAddress" value="169.254.209.0"/>
+         <property name="sessionId" value="3aab7642dfcdba47c1b7810f6e8b283a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestDataDrivenLogin" time="9.764" classname="Test Cases/TestDataDrivenLogin" status="ERROR">
+         <error type="ERROR" message="Test Cases/TestDataDrivenLogin FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Assert for class: Script1635791682593
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635932325640.run(TempTestSuite1635932325640.groovy:36)
+"/>
+         <system-out><![CDATA[2021-11-03 10:39:02 - [TEST_CASE][ERROR] - Test Cases/TestDataDrivenLogin: Test Cases/TestDataDrivenLogin FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Assert for class: Script1635791682593
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635932325640.run(TempTestSuite1635932325640.groovy:36)
+
+
+2021-11-03 10:39:02 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-11-03 10:39:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-03 10:39:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2021-11-03 10:39:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-11-03 10:39:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-03 10:39:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-03 10:39:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-11-03 10:39:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-03 10:39:07 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-03 10:39:07 - [TEST_STEP][PASSED] - navigateToUrl("http://ats.faimerecruiter.com/"): Navigate to 'http://ats.faimerecruiter.com/' successfully
+
+2021-11-03 10:39:08 - [MESSAGE][PASSED] - Navigate to 'http://ats.faimerecruiter.com/' successfully
+
+2021-11-03 10:39:08 - [TEST_STEP][PASSED] - ObjUsername = new com.kms.katalon.core.testobject.TestObject(username): null
+
+2021-11-03 10:39:08 - [TEST_STEP][PASSED] - ObjPassword = new com.kms.katalon.core.testobject.TestObject(password): null
+
+2021-11-03 10:39:08 - [TEST_STEP][PASSED] - ObjValider = new com.kms.katalon.core.testobject.TestObject(valider): null
+
+2021-11-03 10:39:08 - [TEST_STEP][PASSED] - ObjLogout = new com.kms.katalon.core.testobject.TestObject(Logout): null
+
+2021-11-03 10:39:08 - [TEST_STEP][PASSED] - ObjMsgErr = new com.kms.katalon.core.testobject.TestObject(MsgErr): null
+
+2021-11-03 10:39:08 - [TEST_STEP][PASSED] - ObjUsername.addProperty("xpath", EQUALS, "//input[@id='username']"): null
+
+2021-11-03 10:39:08 - [TEST_STEP][PASSED] - ObjPassword.addProperty("xpath", EQUALS, "//input[@id='password']"): null
+
+2021-11-03 10:39:08 - [TEST_STEP][PASSED] - ObjValider.addProperty("xpath", EQUALS, "//input[@value='Login']"): null
+
+2021-11-03 10:39:08 - [TEST_STEP][PASSED] - ObjLogout.addProperty("xpath", EQUALS, "//a[contains(text(),'Logout')]"): null
+
+2021-11-03 10:39:08 - [TEST_STEP][PASSED] - ObjMsgErr.addProperty("xpath", EQUALS, "//p[@class="failure"]"): null
+
+2021-11-03 10:39:08 - [TEST_STEP][PASSED] - waitForElementPresent(ObjUsername, 300): Object 'username' is present
+
+2021-11-03 10:39:08 - [MESSAGE][PASSED] - Object 'username' is present
+
+2021-11-03 10:39:08 - [TEST_STEP][PASSED] - setText(ObjUsername, username): Text 'admin' is set on object 'username'
+
+2021-11-03 10:39:09 - [MESSAGE][PASSED] - Text 'admin' is set on object 'username'
+
+2021-11-03 10:39:09 - [TEST_STEP][PASSED] - setText(ObjPassword, password): Text 'admin' is set on object 'password'
+
+2021-11-03 10:39:10 - [MESSAGE][PASSED] - Text 'admin' is set on object 'password'
+
+2021-11-03 10:39:10 - [TEST_STEP][PASSED] - click(ObjValider): Object: 'valider' is clicked on
+
+2021-11-03 10:39:11 - [MESSAGE][PASSED] - Object: 'valider' is clicked on
+
+2021-11-03 10:39:11 - [TEST_STEP][PASSED] - if (verifyElementPresent(ObjLogout, 30, OPTIONAL)): null
+
+2021-11-03 10:39:11 - [MESSAGE][PASSED] - Object 'Logout' is present
+
+2021-11-03 10:39:11 - [TEST_STEP][PASSED] - ActualResult = getText(ObjLogout): Text of object 'Logout' is: 'Logout'
+
+2021-11-03 10:39:11 - [MESSAGE][PASSED] - Text of object 'Logout' is: 'Logout'
+
+2021-11-03 10:39:11 - [TEST_STEP][ERROR] - Assert.assertEquals(ResultatAttendu, ActualResult): Test Cases/TestDataDrivenLogin FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Assert for class: Script1635791682593
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635932325640.run(TempTestSuite1635932325640.groovy:36)
+
+
+2021-11-03 10:39:11 - [MESSAGE][ERROR] - Test Cases/TestDataDrivenLogin FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Assert for class: Script1635791682593
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635932325640.run(TempTestSuite1635932325640.groovy:36)
+
+
+2021-11-03 10:39:11 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-11-03 10:39:11 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-03 10:39:11 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2021-11-03 10:39:02 - [TEST_CASE][ERROR] - Test Cases/TestDataDrivenLogin: Test Cases/TestDataDrivenLogin FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Assert for class: Script1635791682593
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635932325640.run(TempTestSuite1635932325640.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestDataDrivenLogin" time="10.953" classname="Test Cases/TestDataDrivenLogin" status="PASSED">
+         <system-out><![CDATA[2021-11-03 10:39:11 - [TEST_CASE][PASSED] - Test Cases/TestDataDrivenLogin: Test Cases/TestDataDrivenLogin
+
+2021-11-03 10:39:12 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-11-03 10:39:12 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-03 10:39:12 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2021-11-03 10:39:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-11-03 10:39:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-11-03 10:39:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-03 10:39:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-03 10:39:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-11-03 10:39:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-03 10:39:15 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-03 10:39:15 - [TEST_STEP][PASSED] - navigateToUrl("http://ats.faimerecruiter.com/"): Navigate to 'http://ats.faimerecruiter.com/' successfully
+
+2021-11-03 10:39:16 - [MESSAGE][PASSED] - Navigate to 'http://ats.faimerecruiter.com/' successfully
+
+2021-11-03 10:39:16 - [TEST_STEP][PASSED] - ObjUsername = new com.kms.katalon.core.testobject.TestObject(username): null
+
+2021-11-03 10:39:16 - [TEST_STEP][PASSED] - ObjPassword = new com.kms.katalon.core.testobject.TestObject(password): null
+
+2021-11-03 10:39:16 - [TEST_STEP][PASSED] - ObjValider = new com.kms.katalon.core.testobject.TestObject(valider): null
+
+2021-11-03 10:39:16 - [TEST_STEP][PASSED] - ObjLogout = new com.kms.katalon.core.testobject.TestObject(Logout): null
+
+2021-11-03 10:39:16 - [TEST_STEP][PASSED] - ObjMsgErr = new com.kms.katalon.core.testobject.TestObject(MsgErr): null
+
+2021-11-03 10:39:16 - [TEST_STEP][PASSED] - ObjUsername.addProperty("xpath", EQUALS, "//input[@id='username']"): null
+
+2021-11-03 10:39:16 - [TEST_STEP][PASSED] - ObjPassword.addProperty("xpath", EQUALS, "//input[@id='password']"): null
+
+2021-11-03 10:39:16 - [TEST_STEP][PASSED] - ObjValider.addProperty("xpath", EQUALS, "//input[@value='Login']"): null
+
+2021-11-03 10:39:16 - [TEST_STEP][PASSED] - ObjLogout.addProperty("xpath", EQUALS, "//a[contains(text(),'Logout')]"): null
+
+2021-11-03 10:39:16 - [TEST_STEP][PASSED] - ObjMsgErr.addProperty("xpath", EQUALS, "//p[@class="failure"]"): null
+
+2021-11-03 10:39:16 - [TEST_STEP][PASSED] - waitForElementPresent(ObjUsername, 300): Object 'username' is present
+
+2021-11-03 10:39:16 - [MESSAGE][PASSED] - Object 'username' is present
+
+2021-11-03 10:39:16 - [TEST_STEP][PASSED] - setText(ObjUsername, username): Text 'admina' is set on object 'username'
+
+2021-11-03 10:39:17 - [MESSAGE][PASSED] - Text 'admina' is set on object 'username'
+
+2021-11-03 10:39:17 - [TEST_STEP][PASSED] - setText(ObjPassword, password): Text '' is set on object 'password'
+
+2021-11-03 10:39:17 - [MESSAGE][PASSED] - Text '' is set on object 'password'
+
+2021-11-03 10:39:17 - [TEST_STEP][PASSED] - click(ObjValider): Object: 'valider' is clicked on
+
+2021-11-03 10:39:18 - [MESSAGE][PASSED] - Object: 'valider' is clicked on
+
+2021-11-03 10:39:18 - [TEST_STEP][PASSED] - if (verifyElementPresent(ObjLogout, 30, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Logout' located by '//a[contains(text(),'Logout')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Logout' located by '//a[contains(text(),'Logout')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635932325640.run(TempTestSuite1635932325640.groovy:36)
+)
+
+2021-11-03 10:39:22 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2021-11-03 10:39:22 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Logout' located by '//a[contains(text(),'Logout')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Logout' located by '//a[contains(text(),'Logout')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635932325640.run(TempTestSuite1635932325640.groovy:36)
+)
+
+2021-11-03 10:39:22 - [TEST_STEP][PASSED] - if (verifyElementPresent(ObjMsgErr, 30, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'MsgErr' located by '//p[@class="failure"]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'MsgErr' located by '//p[@class="failure"]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635932325640.run(TempTestSuite1635932325640.groovy:36)
+)
+
+2021-11-03 10:39:22 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2021-11-03 10:39:22 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'MsgErr' located by '//p[@class="failure"]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'MsgErr' located by '//p[@class="failure"]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635932325640.run(TempTestSuite1635932325640.groovy:36)
+)
+
+2021-11-03 10:39:22 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-11-03 10:39:22 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-03 10:39:22 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestDataDrivenLogin" time="89.155" classname="Test Cases/TestDataDrivenLogin" status="PASSED">
+         <system-out><![CDATA[2021-11-03 10:39:23 - [TEST_CASE][PASSED] - Test Cases/TestDataDrivenLogin: Test Cases/TestDataDrivenLogin
+
+2021-11-03 10:39:23 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-11-03 10:39:23 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-03 10:39:23 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2021-11-03 10:39:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-11-03 10:39:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-11-03 10:39:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-03 10:39:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-03 10:39:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-11-03 10:39:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-03 10:39:25 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-03 10:39:25 - [TEST_STEP][PASSED] - navigateToUrl("http://ats.faimerecruiter.com/"): Navigate to 'http://ats.faimerecruiter.com/' successfully
+
+2021-11-03 10:39:26 - [MESSAGE][PASSED] - Navigate to 'http://ats.faimerecruiter.com/' successfully
+
+2021-11-03 10:39:26 - [TEST_STEP][PASSED] - ObjUsername = new com.kms.katalon.core.testobject.TestObject(username): null
+
+2021-11-03 10:39:26 - [TEST_STEP][PASSED] - ObjPassword = new com.kms.katalon.core.testobject.TestObject(password): null
+
+2021-11-03 10:39:26 - [TEST_STEP][PASSED] - ObjValider = new com.kms.katalon.core.testobject.TestObject(valider): null
+
+2021-11-03 10:39:26 - [TEST_STEP][PASSED] - ObjLogout = new com.kms.katalon.core.testobject.TestObject(Logout): null
+
+2021-11-03 10:39:26 - [TEST_STEP][PASSED] - ObjMsgErr = new com.kms.katalon.core.testobject.TestObject(MsgErr): null
+
+2021-11-03 10:39:26 - [TEST_STEP][PASSED] - ObjUsername.addProperty("xpath", EQUALS, "//input[@id='username']"): null
+
+2021-11-03 10:39:26 - [TEST_STEP][PASSED] - ObjPassword.addProperty("xpath", EQUALS, "//input[@id='password']"): null
+
+2021-11-03 10:39:26 - [TEST_STEP][PASSED] - ObjValider.addProperty("xpath", EQUALS, "//input[@value='Login']"): null
+
+2021-11-03 10:39:26 - [TEST_STEP][PASSED] - ObjLogout.addProperty("xpath", EQUALS, "//a[contains(text(),'Logout')]"): null
+
+2021-11-03 10:39:26 - [TEST_STEP][PASSED] - ObjMsgErr.addProperty("xpath", EQUALS, "//p[@class="failure"]"): null
+
+2021-11-03 10:39:26 - [TEST_STEP][PASSED] - waitForElementPresent(ObjUsername, 300): Object 'username' is present
+
+2021-11-03 10:39:26 - [MESSAGE][PASSED] - Object 'username' is present
+
+2021-11-03 10:39:26 - [TEST_STEP][PASSED] - setText(ObjUsername, username): Text 'admin' is set on object 'username'
+
+2021-11-03 10:39:27 - [MESSAGE][PASSED] - Text 'admin' is set on object 'username'
+
+2021-11-03 10:39:27 - [TEST_STEP][PASSED] - setText(ObjPassword, password): Text 'admina' is set on object 'password'
+
+2021-11-03 10:39:28 - [MESSAGE][PASSED] - Text 'admina' is set on object 'password'
+
+2021-11-03 10:39:28 - [TEST_STEP][PASSED] - click(ObjValider): Object: 'valider' is clicked on
+
+2021-11-03 10:39:28 - [MESSAGE][PASSED] - Object: 'valider' is clicked on
+
+2021-11-03 10:39:28 - [TEST_STEP][PASSED] - if (verifyElementPresent(ObjLogout, 30, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Logout' located by '//a[contains(text(),'Logout')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Logout' located by '//a[contains(text(),'Logout')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635932325640.run(TempTestSuite1635932325640.groovy:36)
+)
+
+2021-11-03 10:40:15 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2021-11-03 10:40:15 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Logout' located by '//a[contains(text(),'Logout')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Logout' located by '//a[contains(text(),'Logout')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635932325640.run(TempTestSuite1635932325640.groovy:36)
+)
+
+2021-11-03 10:40:15 - [TEST_STEP][PASSED] - if (verifyElementPresent(ObjMsgErr, 30, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'MsgErr' located by '//p[@class="failure"]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'MsgErr' located by '//p[@class="failure"]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635932325640.run(TempTestSuite1635932325640.groovy:36)
+)
+
+2021-11-03 10:40:52 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2021-11-03 10:40:52 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'MsgErr' located by '//p[@class="failure"]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'MsgErr' located by '//p[@class="failure"]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635932325640.run(TempTestSuite1635932325640.groovy:36)
+)
+
+2021-11-03 10:40:52 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-11-03 10:40:52 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-11-03 10:40:52 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-03 10:39:00 - [TEST_SUITE][ERROR] - Authentification: Test Cases/TestDataDrivenLogin FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Assert for class: Script1635791682593
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635932325640.run(TempTestSuite1635932325640.groovy:36)]]></system-out>
+      <system-err><![CDATA[2021-11-03 10:39:00 - [TEST_SUITE][ERROR] - Authentification: Test Cases/TestDataDrivenLogin FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Assert for class: Script1635791682593
+	at TestDataDrivenLogin.run(TestDataDrivenLogin:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635932325640.run(TempTestSuite1635932325640.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

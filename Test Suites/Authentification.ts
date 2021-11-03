@@ -17,7 +17,7 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/TestDataDrivenLogin</testCaseId>
       <testDataLink>
-         <combinationType>MANY</combinationType>
+         <combinationType>ONE</combinationType>
          <id>463ba60b-6338-41a9-b56c-268e8d6e37fc</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>

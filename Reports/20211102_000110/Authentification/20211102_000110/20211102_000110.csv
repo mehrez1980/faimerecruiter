@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Authentification,Chrome 95.0.4638.54,,,2021-11-02 00:01:24,2021-11-02 00:02:06,"41,829s",ERROR
+,,,,,,,
+Test Cases/TestDataDrivenLogin,Chrome 95.0.4638.54,,,2021-11-02 00:01:31,2021-11-02 00:01:36,"5,538s",ERROR
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.54,,,2021-11-02 00:01:31,2021-11-02 00:01:31,"0,030s",PASSED
+"verifyElementPresent(findTestObject(""Page_opencats - Login/input_Username_username""), 300)",Chrome 95.0.4638.54,,,2021-11-02 00:01:31,2021-11-02 00:01:32,"0,469s",PASSED
+"setText(findTestObject(""Page_opencats - Login/input_Username_username""), username)",Chrome 95.0.4638.54,,,2021-11-02 00:01:32,2021-11-02 00:01:33,"0,831s",PASSED
+"setText(findTestObject(""Page_opencats - Login/input_Password_password""), password)",Chrome 95.0.4638.54,,,2021-11-02 00:01:33,2021-11-02 00:01:34,"0,773s",PASSED
+"click(findTestObject(""Page_opencats - Login/input_Password_button""))",Chrome 95.0.4638.54,,,2021-11-02 00:01:34,2021-11-02 00:01:35,"1,218s",PASSED
+"if (verifyElementPresent(findTestObject(""Page_FaimeRecruiter - Home/a_Logout""), 10, OPTIONAL))",Chrome 95.0.4638.54,,,2021-11-02 00:01:35,2021-11-02 00:01:36,"1,458s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.54,,,2021-11-02 00:01:36,2021-11-02 00:01:36,"0,005s",PASSED
+,,,,,,,
+Test Cases/TestDataDrivenLogin,Chrome 95.0.4638.54,,,2021-11-02 00:01:36,2021-11-02 00:01:51,"15,005s",ERROR
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.54,,,2021-11-02 00:01:36,2021-11-02 00:01:36,"0,004s",PASSED
+"verifyElementPresent(findTestObject(""Page_opencats - Login/input_Username_username""), 300)",Chrome 95.0.4638.54,,,2021-11-02 00:01:36,2021-11-02 00:01:37,"0,440s",PASSED
+"setText(findTestObject(""Page_opencats - Login/input_Username_username""), username)",Chrome 95.0.4638.54,,,2021-11-02 00:01:37,2021-11-02 00:01:38,"0,768s",PASSED
+"setText(findTestObject(""Page_opencats - Login/input_Password_password""), password)",Chrome 95.0.4638.54,,,2021-11-02 00:01:38,2021-11-02 00:01:38,"0,735s",PASSED
+"click(findTestObject(""Page_opencats - Login/input_Password_button""))",Chrome 95.0.4638.54,,,2021-11-02 00:01:38,2021-11-02 00:01:39,"0,632s",PASSED
+"if (verifyElementPresent(findTestObject(""Page_FaimeRecruiter - Home/a_Logout""), 10, OPTIONAL))",Chrome 95.0.4638.54,,,2021-11-02 00:01:39,2021-11-02 00:01:50,"11,452s",PASSED
+"if (verifyElementPresent(findTestObject(""Page_opencats - Login/p_Invalid username or password""), 10, OPTIONAL))",Chrome 95.0.4638.54,,,2021-11-02 00:01:50,2021-11-02 00:01:51,"0,842s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.54,,,2021-11-02 00:01:51,2021-11-02 00:01:51,"0,002s",PASSED
+,,,,,,,
+Test Cases/TestDataDrivenLogin,Chrome 95.0.4638.54,,,2021-11-02 00:01:51,2021-11-02 00:02:06,"14,852s",ERROR
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.54,,,2021-11-02 00:01:51,2021-11-02 00:01:51,"0,002s",PASSED
+"verifyElementPresent(findTestObject(""Page_opencats - Login/input_Username_username""), 300)",Chrome 95.0.4638.54,,,2021-11-02 00:01:51,2021-11-02 00:01:52,"0,415s",PASSED
+"setText(findTestObject(""Page_opencats - Login/input_Username_username""), username)",Chrome 95.0.4638.54,,,2021-11-02 00:01:52,2021-11-02 00:01:53,"0,767s",PASSED
+"setText(findTestObject(""Page_opencats - Login/input_Password_password""), password)",Chrome 95.0.4638.54,,,2021-11-02 00:01:53,2021-11-02 00:01:53,"0,826s",PASSED
+"click(findTestObject(""Page_opencats - Login/input_Password_button""))",Chrome 95.0.4638.54,,,2021-11-02 00:01:53,2021-11-02 00:01:54,"0,595s",PASSED
+"if (verifyElementPresent(findTestObject(""Page_FaimeRecruiter - Home/a_Logout""), 10, OPTIONAL))",Chrome 95.0.4638.54,,,2021-11-02 00:01:54,2021-11-02 00:02:05,"11,439s",PASSED
+"if (verifyElementPresent(findTestObject(""Page_opencats - Login/p_Invalid username or password""), 10, OPTIONAL))",Chrome 95.0.4638.54,,,2021-11-02 00:02:05,2021-11-02 00:02:06,"0,770s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.54,,,2021-11-02 00:02:06,2021-11-02 00:02:06,"0,002s",PASSED

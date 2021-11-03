@@ -23,6 +23,5 @@ if (WebUI.verifyElementPresent(findTestObject('Page_opencats - Login/p_Invalid u
 	ObjError=findTestObject('Page_opencats - Login/p_Invalid username or password')
 	String ActualResult=WebUI.getText(ObjError)
 	System.out.println(ActualResult)
-	
 	}
 	

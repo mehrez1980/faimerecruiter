@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Authentification,Chrome 95.0.4638.69,,,2021-11-03 10:18:57,2021-11-03 10:19:15,"17,640s",ERROR
+,,,,,,,
+Test Cases/TestDataDrivenLogin,Chrome 95.0.4638.69,,,2021-11-03 10:19:00,2021-11-03 10:19:07,"7,579s",ERROR
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.69,,,2021-11-03 10:19:00,2021-11-03 10:19:00,"0,041s",PASSED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-03 10:19:01,2021-11-03 10:19:06,"5,403s",PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-11-03 10:19:06,2021-11-03 10:19:07,"0,198s",PASSED
+"navigateToUrl(""http://ats.faimerecruiter.com/"")",Chrome 95.0.4638.69,,,2021-11-03 10:19:07,2021-11-03 10:19:07,"0,724s",PASSED
+ObjUsername = new com.kms.katalon.core.testobject.TestObject(username),Chrome 95.0.4638.69,,,2021-11-03 10:19:07,2021-11-03 10:19:07,"0,023s",PASSED
+ObjPassword = new com.kms.katalon.core.testobject.TestObject(password),Chrome 95.0.4638.69,,,2021-11-03 10:19:07,2021-11-03 10:19:07,"0,002s",PASSED
+ObjValider = new com.kms.katalon.core.testobject.TestObject(valider),Chrome 95.0.4638.69,,,2021-11-03 10:19:07,2021-11-03 10:19:07,"0,004s",PASSED
+ObjLogout = new com.kms.katalon.core.testobject.TestObject(Logout),Chrome 95.0.4638.69,,,2021-11-03 10:19:07,2021-11-03 10:19:07,"0,002s",PASSED
+ObjMsgErr = new com.kms.katalon.core.testobject.TestObject(MsgErr),Chrome 95.0.4638.69,,,2021-11-03 10:19:07,2021-11-03 10:19:07,"0,004s",PASSED
+"ObjUsername.addProperty(""xpath"", EQUALS, ""//input[@id='username']"")",Chrome 95.0.4638.69,,,2021-11-03 10:19:07,2021-11-03 10:19:07,"0,089s",ERROR
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.69,,,2021-11-03 10:19:07,2021-11-03 10:19:07,"0,008s",PASSED
+,,,,,,,
+Test Cases/TestDataDrivenLogin,Chrome 95.0.4638.69,,,2021-11-03 10:19:08,2021-11-03 10:19:11,"3,618s",ERROR
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.69,,,2021-11-03 10:19:08,2021-11-03 10:19:08,"0,011s",PASSED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-03 10:19:08,2021-11-03 10:19:10,"2,736s",PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-11-03 10:19:10,2021-11-03 10:19:10,"0,157s",PASSED
+"navigateToUrl(""http://ats.faimerecruiter.com/"")",Chrome 95.0.4638.69,,,2021-11-03 10:19:10,2021-11-03 10:19:11,"0,636s",PASSED
+ObjUsername = new com.kms.katalon.core.testobject.TestObject(username),Chrome 95.0.4638.69,,,2021-11-03 10:19:11,2021-11-03 10:19:11,"0,000s",PASSED
+ObjPassword = new com.kms.katalon.core.testobject.TestObject(password),Chrome 95.0.4638.69,,,2021-11-03 10:19:11,2021-11-03 10:19:11,"0,001s",PASSED
+ObjValider = new com.kms.katalon.core.testobject.TestObject(valider),Chrome 95.0.4638.69,,,2021-11-03 10:19:11,2021-11-03 10:19:11,"0,001s",PASSED
+ObjLogout = new com.kms.katalon.core.testobject.TestObject(Logout),Chrome 95.0.4638.69,,,2021-11-03 10:19:11,2021-11-03 10:19:11,"0,001s",PASSED
+ObjMsgErr = new com.kms.katalon.core.testobject.TestObject(MsgErr),Chrome 95.0.4638.69,,,2021-11-03 10:19:11,2021-11-03 10:19:11,"0,001s",PASSED
+"ObjUsername.addProperty(""xpath"", EQUALS, ""//input[@id='username']"")",Chrome 95.0.4638.69,,,2021-11-03 10:19:11,2021-11-03 10:19:11,"0,005s",ERROR
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.69,,,2021-11-03 10:19:11,2021-11-03 10:19:11,"0,002s",PASSED
+,,,,,,,
+Test Cases/TestDataDrivenLogin,Chrome 95.0.4638.69,,,2021-11-03 10:19:11,2021-11-03 10:19:15,"3,409s",ERROR
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.69,,,2021-11-03 10:19:11,2021-11-03 10:19:11,"0,005s",PASSED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-03 10:19:11,2021-11-03 10:19:14,"2,589s",PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-11-03 10:19:14,2021-11-03 10:19:14,"0,159s",PASSED
+"navigateToUrl(""http://ats.faimerecruiter.com/"")",Chrome 95.0.4638.69,,,2021-11-03 10:19:14,2021-11-03 10:19:15,"0,591s",PASSED
+ObjUsername = new com.kms.katalon.core.testobject.TestObject(username),Chrome 95.0.4638.69,,,2021-11-03 10:19:15,2021-11-03 10:19:15,"0,000s",PASSED
+ObjPassword = new com.kms.katalon.core.testobject.TestObject(password),Chrome 95.0.4638.69,,,2021-11-03 10:19:15,2021-11-03 10:19:15,"0,000s",PASSED
+ObjValider = new com.kms.katalon.core.testobject.TestObject(valider),Chrome 95.0.4638.69,,,2021-11-03 10:19:15,2021-11-03 10:19:15,"0,001s",PASSED
+ObjLogout = new com.kms.katalon.core.testobject.TestObject(Logout),Chrome 95.0.4638.69,,,2021-11-03 10:19:15,2021-11-03 10:19:15,"0,001s",PASSED
+ObjMsgErr = new com.kms.katalon.core.testobject.TestObject(MsgErr),Chrome 95.0.4638.69,,,2021-11-03 10:19:15,2021-11-03 10:19:15,"0,002s",PASSED
+"ObjUsername.addProperty(""xpath"", EQUALS, ""//input[@id='username']"")",Chrome 95.0.4638.69,,,2021-11-03 10:19:15,2021-11-03 10:19:15,"0,004s",ERROR
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.69,,,2021-11-03 10:19:15,2021-11-03 10:19:15,"0,002s",PASSED

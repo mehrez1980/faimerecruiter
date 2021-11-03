@@ -20,25 +20,30 @@ import internal.GlobalVariable
 import static org.junit.Assert.assertEquals
 
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testobject.ConditionType
 
-WebUI.verifyElementPresent(findTestObject('Page_opencats - Login/input_Username_username'), 300)
-
-WebUI.setText(findTestObject('Page_opencats - Login/input_Username_username'), username)
-
-WebUI.setText(findTestObject('Page_opencats - Login/input_Password_password'), password)
-
-WebUI.click(findTestObject('Page_opencats - Login/input_Password_button'))
-
-if (WebUI.verifyElementPresent(findTestObject('Page_FaimeRecruiter - Home/a_Logout'), 10,FailureHandling.OPTIONAL)) {
-	String ActualResult=WebUI.getUrl()
-	ObjLogout=findTestObject('Page_FaimeRecruiter - Home/a_Logout')
-	WebUI.click(ObjLogout)
-	assertEquals(ResultatAttendu, ActualResult)
+TestObject ObjUsername=new TestObject("username")
+TestObject ObjPassword=new TestObject("password")
+TestObject ObjValider=new TestObject("valider")
+TestObject ObjLogout=new TestObject("Logout")
+TestObject ObjMsgErr=new TestObject("MsgErr")
+ObjUsername.addProperty('xpath', ConditionType.EQUALS, '//input[@id=\'username\']')
+ObjPassword.addProperty('xpath', ConditionType.EQUALS, '//input[@id=\'password\']')
+ObjValider.addProperty('xpath', ConditionType.EQUALS, '//input[@value=\'Login\']')
+ObjLogout.addProperty('xpath', ConditionType.EQUALS, '//a[contains(text(),\'Logout\')]')
+ObjMsgErr.addProperty('xpath', ConditionType.EQUALS,'//p[@class="failure"]')
+WebUI.waitForElementPresent(ObjUsername, 300)
+WebUI.setText(ObjUsername, username)
+WebUI.setText(ObjPassword, password)
+WebUI.click(ObjValider)
+if (WebUI.verifyElementPresent(ObjLogout, 30,FailureHandling.OPTIONAL))
+{
+String ActualResult = WebUI.getText(ObjLogout)
+WebUI.click(ObjLogout)
+assertEquals(ResultatAttendu, ActualResult)
 }
-
-if (WebUI.verifyElementPresent(findTestObject('Page_opencats - Login/p_Invalid username or password'), 10,FailureHandling.OPTIONAL)) {
-	ObjError=findTestObject('Page_opencats - Login/p_Invalid username or password')
-	String ActualResult=WebUI.getText(ObjError)
-	assertEquals(ResultatAttendu, ActualResult)
-	}
-
+if (WebUI.verifyElementPresent(ObjMsgErr, 30,FailureHandling.OPTIONAL))
+{
+String ActualResult = WebUI.getText(ObjMsgErr)
+assertEquals("Le resultat Attendu devrais être: "+ResultatAttendu+" Alors que nous avons commme résultat: "+ActualResult,ResultatAttendu, ActualResult)
+}

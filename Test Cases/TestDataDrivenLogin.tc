@@ -24,6 +24,6 @@
       <description></description>
       <id>c6d34fdf-bd80-45ce-992b-e73b0130ef3e</id>
       <masked>false</masked>
-      <name>variable</name>
+      <name>ResultatAttendu</name>
    </variable>
 </TestCaseEntity>

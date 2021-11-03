@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Authentification,Chrome 95.0.4638.69,,,2021-11-03 10:35:09,2021-11-03 10:35:33,"24,290s",FAILED
+,,,,,,,
+Test Cases/TestDataDrivenLogin,Chrome 95.0.4638.69,,,2021-11-03 10:35:10,2021-11-03 10:35:20,"9,710s",FAILED
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.69,,,2021-11-03 10:35:10,2021-11-03 10:35:10,"0,034s",PASSED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-03 10:35:11,2021-11-03 10:35:15,"3,994s",PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-11-03 10:35:15,2021-11-03 10:35:15,"0,196s",PASSED
+"navigateToUrl(""http://ats.faimerecruiter.com/"")",Chrome 95.0.4638.69,,,2021-11-03 10:35:15,2021-11-03 10:35:16,"0,598s",PASSED
+ObjUsername = new com.kms.katalon.core.testobject.TestObject(username),Chrome 95.0.4638.69,,,2021-11-03 10:35:16,2021-11-03 10:35:16,"0,021s",PASSED
+ObjPassword = new com.kms.katalon.core.testobject.TestObject(password),Chrome 95.0.4638.69,,,2021-11-03 10:35:16,2021-11-03 10:35:16,"0,002s",PASSED
+ObjValider = new com.kms.katalon.core.testobject.TestObject(valider),Chrome 95.0.4638.69,,,2021-11-03 10:35:16,2021-11-03 10:35:16,"0,002s",PASSED
+ObjLogout = new com.kms.katalon.core.testobject.TestObject(Logout),Chrome 95.0.4638.69,,,2021-11-03 10:35:16,2021-11-03 10:35:16,"0,001s",PASSED
+ObjMsgErr = new com.kms.katalon.core.testobject.TestObject(MsgErr),Chrome 95.0.4638.69,,,2021-11-03 10:35:16,2021-11-03 10:35:16,"0,002s",PASSED
+"ObjUsername.addProperty(""xpath"", EQUALS, ""//input[@id='username']"")",Chrome 95.0.4638.69,,,2021-11-03 10:35:16,2021-11-03 10:35:16,"0,023s",PASSED
+"ObjPassword.addProperty(""xpath"", EQUALS, ""//input[@id='password']"")",Chrome 95.0.4638.69,,,2021-11-03 10:35:16,2021-11-03 10:35:16,"0,002s",PASSED
+"ObjValider.addProperty(""xpath"", EQUALS, ""//input[@value='Login']"")",Chrome 95.0.4638.69,,,2021-11-03 10:35:16,2021-11-03 10:35:16,"0,003s",PASSED
+"ObjLogout.addProperty(""xpath"", EQUALS, ""//a[contains(text(),'Logout')]"")",Chrome 95.0.4638.69,,,2021-11-03 10:35:16,2021-11-03 10:35:16,"0,014s",PASSED
+"ObjMsgErr.addProperty(""xpath"", EQUALS, ""//p[@class=""failure""]"")",Chrome 95.0.4638.69,,,2021-11-03 10:35:16,2021-11-03 10:35:16,"0,003s",PASSED
+"waitForElementPresent(ObjUsername, 300)",Chrome 95.0.4638.69,,,2021-11-03 10:35:16,2021-11-03 10:35:17,"0,438s",PASSED
+"setText(ObjUsername, username)",Chrome 95.0.4638.69,,,2021-11-03 10:35:17,2021-11-03 10:35:17,"0,709s",PASSED
+"setText(ObjPassword, password)",Chrome 95.0.4638.69,,,2021-11-03 10:35:17,2021-11-03 10:35:18,"0,698s",PASSED
+click(ObjValider),Chrome 95.0.4638.69,,,2021-11-03 10:35:18,2021-11-03 10:35:19,"1,001s",PASSED
+"if (verifyElementPresent(ObjLogout, 30, OPTIONAL))",Chrome 95.0.4638.69,,,2021-11-03 10:35:19,2021-11-03 10:35:20,"0,921s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.69,,,2021-11-03 10:35:20,2021-11-03 10:35:20,"0,017s",PASSED
+,,,,,,,
+Test Cases/TestDataDrivenLogin,Chrome 95.0.4638.69,,,2021-11-03 10:35:20,2021-11-03 10:35:28,"8,394s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.69,,,2021-11-03 10:35:20,2021-11-03 10:35:20,"0,004s",PASSED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-03 10:35:20,2021-11-03 10:35:23,"3,097s",PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-11-03 10:35:23,2021-11-03 10:35:23,"0,164s",PASSED
+"navigateToUrl(""http://ats.faimerecruiter.com/"")",Chrome 95.0.4638.69,,,2021-11-03 10:35:23,2021-11-03 10:35:24,"0,612s",PASSED
+ObjUsername = new com.kms.katalon.core.testobject.TestObject(username),Chrome 95.0.4638.69,,,2021-11-03 10:35:24,2021-11-03 10:35:24,"0,001s",PASSED
+ObjPassword = new com.kms.katalon.core.testobject.TestObject(password),Chrome 95.0.4638.69,,,2021-11-03 10:35:24,2021-11-03 10:35:24,"0,000s",PASSED
+ObjValider = new com.kms.katalon.core.testobject.TestObject(valider),Chrome 95.0.4638.69,,,2021-11-03 10:35:24,2021-11-03 10:35:24,"0,000s",PASSED
+ObjLogout = new com.kms.katalon.core.testobject.TestObject(Logout),Chrome 95.0.4638.69,,,2021-11-03 10:35:24,2021-11-03 10:35:24,"0,001s",PASSED
+ObjMsgErr = new com.kms.katalon.core.testobject.TestObject(MsgErr),Chrome 95.0.4638.69,,,2021-11-03 10:35:24,2021-11-03 10:35:24,"0,000s",PASSED
+"ObjUsername.addProperty(""xpath"", EQUALS, ""//input[@id='username']"")",Chrome 95.0.4638.69,,,2021-11-03 10:35:24,2021-11-03 10:35:24,"0,001s",PASSED
+"ObjPassword.addProperty(""xpath"", EQUALS, ""//input[@id='password']"")",Chrome 95.0.4638.69,,,2021-11-03 10:35:24,2021-11-03 10:35:24,"0,001s",PASSED
+"ObjValider.addProperty(""xpath"", EQUALS, ""//input[@value='Login']"")",Chrome 95.0.4638.69,,,2021-11-03 10:35:24,2021-11-03 10:35:24,"0,001s",PASSED
+"ObjLogout.addProperty(""xpath"", EQUALS, ""//a[contains(text(),'Logout')]"")",Chrome 95.0.4638.69,,,2021-11-03 10:35:24,2021-11-03 10:35:24,"0,000s",PASSED
+"ObjMsgErr.addProperty(""xpath"", EQUALS, ""//p[@class=""failure""]"")",Chrome 95.0.4638.69,,,2021-11-03 10:35:24,2021-11-03 10:35:24,"0,000s",PASSED
+"waitForElementPresent(ObjUsername, 300)",Chrome 95.0.4638.69,,,2021-11-03 10:35:24,2021-11-03 10:35:24,"0,344s",PASSED
+"setText(ObjUsername, username)",Chrome 95.0.4638.69,,,2021-11-03 10:35:24,2021-11-03 10:35:25,"0,672s",PASSED
+"setText(ObjPassword, password)",Chrome 95.0.4638.69,,,2021-11-03 10:35:25,2021-11-03 10:35:26,"0,751s",PASSED
+click(ObjValider),Chrome 95.0.4638.69,,,2021-11-03 10:35:26,2021-11-03 10:35:26,"0,528s",PASSED
+"if (verifyElementPresent(ObjLogout, 30, OPTIONAL))",Chrome 95.0.4638.69,,,2021-11-03 10:35:26,2021-11-03 10:35:28,"2,091s",PASSED
+"if (verifyElementPresent(ObjMsgErr, 30, OPTIONAL))",Chrome 95.0.4638.69,,,2021-11-03 10:35:28,2021-11-03 10:35:28,"0,050s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.69,,,2021-11-03 10:35:28,2021-11-03 10:35:28,"0,003s",PASSED
+,,,,,,,
+Test Cases/TestDataDrivenLogin,Chrome 95.0.4638.69,,,2021-11-03 10:35:29,2021-11-03 10:35:33,"4,051s",FAILED
+Start listener action : sampleBeforeTestCase,Chrome 95.0.4638.69,,,2021-11-03 10:35:29,2021-11-03 10:35:29,"0,003s",PASSED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-03 10:35:29,2021-11-03 10:35:31,"2,346s",PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-11-03 10:35:31,2021-11-03 10:35:31,"0,168s",PASSED
+"navigateToUrl(""http://ats.faimerecruiter.com/"")",Chrome 95.0.4638.69,,,2021-11-03 10:35:31,2021-11-03 10:35:32,"0,612s",PASSED
+ObjUsername = new com.kms.katalon.core.testobject.TestObject(username),Chrome 95.0.4638.69,,,2021-11-03 10:35:32,2021-11-03 10:35:32,"0,001s",PASSED
+ObjPassword = new com.kms.katalon.core.testobject.TestObject(password),Chrome 95.0.4638.69,,,2021-11-03 10:35:32,2021-11-03 10:35:32,"0,001s",PASSED
+ObjValider = new com.kms.katalon.core.testobject.TestObject(valider),Chrome 95.0.4638.69,,,2021-11-03 10:35:32,2021-11-03 10:35:32,"0,000s",PASSED
+ObjLogout = new com.kms.katalon.core.testobject.TestObject(Logout),Chrome 95.0.4638.69,,,2021-11-03 10:35:32,2021-11-03 10:35:32,"0,001s",PASSED
+ObjMsgErr = new com.kms.katalon.core.testobject.TestObject(MsgErr),Chrome 95.0.4638.69,,,2021-11-03 10:35:32,2021-11-03 10:35:32,"0,001s",PASSED
+"ObjUsername.addProperty(""xpath"", EQUALS, ""//input[@id='username']"")",Chrome 95.0.4638.69,,,2021-11-03 10:35:32,2021-11-03 10:35:32,"0,000s",PASSED
+"ObjPassword.addProperty(""xpath"", EQUALS, ""//input[@id='password']"")",Chrome 95.0.4638.69,,,2021-11-03 10:35:32,2021-11-03 10:35:32,"0,000s",PASSED
+"ObjValider.addProperty(""xpath"", EQUALS, ""//input[@value='Login']"")",Chrome 95.0.4638.69,,,2021-11-03 10:35:32,2021-11-03 10:35:32,"0,002s",PASSED
+"ObjLogout.addProperty(""xpath"", EQUALS, ""//a[contains(text(),'Logout')]"")",Chrome 95.0.4638.69,,,2021-11-03 10:35:32,2021-11-03 10:35:32,"0,000s",PASSED
+"ObjMsgErr.addProperty(""xpath"", EQUALS, ""//p[@class=""failure""]"")",Chrome 95.0.4638.69,,,2021-11-03 10:35:32,2021-11-03 10:35:32,"0,001s",PASSED
+"waitForElementPresent(ObjUsername, 300)",Chrome 95.0.4638.69,,,2021-11-03 10:35:32,2021-11-03 10:35:32,"0,433s",PASSED
+"setText(ObjUsername, username)",Chrome 95.0.4638.69,,,2021-11-03 10:35:32,2021-11-03 10:35:33,"0,423s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 95.0.4638.69,,,2021-11-03 10:35:33,2021-11-03 10:35:33,"0,004s",PASSED
